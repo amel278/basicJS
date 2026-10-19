@@ -71,11 +71,14 @@
 
 let nilai = [12, 7, 20, 15, 8, 3, 14, 9];
 for (let i = 0; i < nilai.length; i++) {
-     if (nilai[i] % 2 === 0 && nilai[i] >=10) {
-        console.log(nilai[i] + " - Genap" + " -" + nilai[i]);
-     } else if (nilai[i] && nilai[i] <10){
-        console.log(nilai[i] + " - Ganjil" + "-" + nilai[i])
-     } else {
-        console.log ( nilai[i] + " - Ganjil");
+     if (nilai[i] % 2 === 0 && nilai[i] >= 10) {
+        console.log(nilai[i] + " - Genap - >=10");
+    } 
+    else if (nilai[i] < 10) {
+        let ket = (nilai[i] % 2 === 0) ? "Genap" : "Ganjil";
+        console.log(nilai[i] + " - " +ket + " - <10");
+    } 
+    else {
+        console.log(nilai[i] + " - Ganjil - >=10");
     }
 }
