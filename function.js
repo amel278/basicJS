@@ -113,10 +113,13 @@ function tampilkanUmur() {
 
 
 
-function tampilberatBadan() {
-    let beratBadan = 70; //ini global scope
-    console.log(beratBadan);
- }
+// function tampilberatBadan() {
+//     let beratBadan = 70; //function scope
+//     console.log(beratBadan);
+//  }
 
-tampilberatBadan();
-console.log(beratBadan);
+// tampilberatBadan();
+// console.log(beratBadan);
+
+
+ 
