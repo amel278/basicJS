@@ -141,7 +141,7 @@ const inventaris = [
 ];
 
 const hasilcari = inventaris.find((item) => {
-    return item.kode === "PC003"
+    return item.kode == "PC003"
 });
 
     if (hasilcari) {
@@ -151,3 +151,12 @@ const hasilcari = inventaris.find((item) => {
     } else {
         console.log ("perangkat tidak ditemukan")
 }
+
+
+const siswa3 = [
+    {nama: "amira", umur: 16 },
+    {nama: "mufid", umur: 17 },
+    {nama: "amel", umur: 15 },
+];
+
+console.log(siswa3[0].nama, siswa3[2].umur);// ini untuk manggil nama amira tapi umur nya amel, manggil index nya dulu 

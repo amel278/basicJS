@@ -54,4 +54,5 @@ const namaharga = daftarHarga.map (({nama, harga}) => {
 
 });
 
-// console.log(namaharga);
+console.log(namaharga);
+
